@@ -8,24 +8,25 @@
 /*start header*/
 .header{
     background: linear-gradient(to top, #424242, #151515);
-    display:flex;
+    display: flex;
     justify-content: center;
+    border-bottom: 1px solid #fff;
 }
 .wrapper{
-    display:flex;
+    display: flex;
     justify-content: center;
     max-width: 934px;
 
 }
 
 .logo{
-    display:flex;
-    margin:40px 40px 40px 30px;
+    display: flex;
+    margin: 40px 40px 40px 30px;
     align-content: center;
 }
 .nav{
-    display:flex;
-    align-items:flex-end;
+    display: flex;
+    align-items: flex-end;
 
 
 }
@@ -37,9 +38,9 @@
 }
 
 .menu__item{
-    display:block;
-    position:relative;
-    width:131px;
+    display: block;
+    position: relative;
+    width: 131px;
     margin:0 0.3px;
     padding: 5px 0;
     text-align: center;
@@ -98,8 +99,64 @@
 
 }
 /*end header*/
+.section{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #cad2d7;
 
 
+}
+
+
+.wrapper-section-1{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #acb3b7;
+    background: #ffffff;
+    border-radius: 5px;
+}
+.girl__img{
+
+}
+.slogan{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 470px;
+    padding-right: 35px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color:#6b6b6b;
+
+}
+.slogan__p-1{
+    text-indent: 112px;
+}
+.slogan__p-2{
+    display: flex;
+    justify-content: flex-end;
+}
+.slogan__span{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #ec8c04;
+    margin-left: 5px;
+}
+.btn{
+    align-self: flex-end;
+    width: 99px;
+    height: 35px;
+    border-style: none;
+    border-radius: 3px;
+    background:linear-gradient(to top, #e77e00 ,#f6a60c);
+    text-transform: uppercase;
+    text-shadow: 1px 1px #a55d08;
+    color: #ffffff;
+
+}
 /*start section-1*/
 
 
