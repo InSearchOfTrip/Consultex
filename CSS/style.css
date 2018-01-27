@@ -15,7 +15,7 @@
 .wrapper{
     display: flex;
     justify-content: center;
-    max-width: 934px;
+    width: 934px;
 
 }
 
@@ -44,7 +44,7 @@
     margin:0 0.3px;
     padding: 5px 0;
     text-align: center;
-        border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
     background: linear-gradient(to top, #111111, #262626);
     color:#ffffff;
     font-family: 'Open Sans', sans-serif;
@@ -99,51 +99,57 @@
 
 }
 /*end header*/
-.section{
+
+/*start section-1*/
+.section-1{
     display: flex;
     justify-content: center;
     padding-top: 5px;
     padding-bottom: 5px;
     background: #cad2d7;
-
-
 }
-
 
 .wrapper-section-1{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    height: 363px;
+    width: 934px;
     border: 1px solid #acb3b7;
     background: #ffffff;
-    border-radius: 5px;
+    background-image: url(../img/girl.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
 }
-.girl__img{
 
-}
 .slogan{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    width: 470px;
+    width: 432px;
     padding-right: 35px;
     font-size: 25px;
     font-family: sans-serif;
     color:#6b6b6b;
 
+
 }
 .slogan__p-1{
-    text-indent: 112px;
+    display: flex;
+    justify-content: flex-end;
+
 }
 .slogan__p-2{
     display: flex;
     justify-content: flex-end;
+    margin: 0 -5px;
 }
 .slogan__span{
     font-family: sans-serif;
     text-transform: uppercase;
     font-style: italic;
     color: #ec8c04;
-    margin-left: 5px;
+    margin: 0 5px;
 }
 .btn{
     align-self: flex-end;
@@ -157,7 +163,125 @@
     color: #ffffff;
 
 }
-/*start section-1*/
-
-
 /*end section-1*/
+
+/*start section-2*/
+.section-2{
+    border-top: 1px solid #fff;
+    background: linear-gradient(to top, #fefefe, #e6eaec);
+
+}
+.wrapper-section-2{
+    margin: 0 auto;
+
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+.shape{
+    margin: 12px 0 20px;
+    border: 1px solid #c3c6c8;
+    border-radius: 5px;
+    background: linear-gradient(to top, #f3f3f3 0%,#fdfdfd 75%, #fff 100%);
+    width: 32.77%;
+
+}
+
+.shape__wriper{
+    width: 83.34%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.shape__title{
+    font-family: 'Open Sans', sans-serif;
+    color: #353535;
+    border-bottom: 1px dotted #9b9a99;
+    padding: 20px 0 14px 60px;
+}
+
+.shape__title_logo-1:before{
+    position: absolute;
+    left: 3px;
+    top: -2px;
+    display: block;
+    content: "";
+    background-image: url("../img/about-img-1.png");
+    background-repeat: no-repeat;
+    width: 49px;
+    height: 58px;
+
+}
+.shape__title_logo-2:before{
+    position: absolute;
+    left: 3px;
+    top: -2px;
+    display: block;
+    content: "";
+    background-image: url("../img/about-img-2.png");
+    background-repeat: no-repeat;
+    width: 49px;
+    height: 58px;
+
+}
+.shape__title_logo-3:before{
+    position: absolute;
+    left: 3px;
+    top: 1px;
+    display: block;
+    content: "";
+    background-image: url("../img/about-img-3.png");
+    background-repeat: no-repeat;
+    width: 49px;
+    height: 58px;
+
+}
+
+
+.shape__image-1,
+.shape__image-2,
+.shape__image-3{
+    width: 100%;
+    height: 124px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    padding: 1px;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 20px;
+
+}
+.shape__image-1{
+    background-image: url("../img/shape-image-1.jpg");
+}
+.shape__image-2{
+    background-image: url("../img/shape-image-2.jpg");
+}
+.shape__image-3{
+    background-image: url("../img/shape-image-3.jpg");
+}
+.shape__text{
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    color: #808080;
+    margin-top: 20px;
+}
+.shape__btn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #030303;
+    color: #fff;
+    background: linear-gradient(to top, #131313, #494949);
+    border: none;
+    border-radius: 4px;
+    padding: 15px 14px 14px 12px;
+    margin: 17px 0 29px;
+}
+/*end section-2*/
