@@ -176,9 +176,10 @@
 
 }
 
-.about{
+.column{
     display: flex;
     justify-content: space-around;
+
 }
 .shape{
     margin: 12px 0 20px;
@@ -271,7 +272,35 @@
     color: #808080;
     margin-top: 20px;
 }
+.shape__href-wripper {
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.shape__href{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial,sans-serif;
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color:  #ec8c04;
+    text-decoration: underline;
+
+}
+.shape__href:before{
+    content: "";
+    position: relative;
+    top: 11px;
+    right: 12px;
+    display: inline;
+    width: 5px;
+    height: 5px;
+    background: url("../img/arrow.png") no-repeat;
+
+}
 .shape__btn{
+    display: flex;
+    align-self: flex-end;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     line-height: 18px;
@@ -281,7 +310,71 @@
     background: linear-gradient(to top, #131313, #494949);
     border: none;
     border-radius: 4px;
+    margin: 28px 0 17px 0;
     padding: 15px 14px 14px 12px;
-    margin: 17px 0 29px;
+
 }
 /*end section-2*/
+
+/*start section-3*/
+.section-3{
+    background: linear-gradient(to top,#3e3e3e, #272727);
+
+}
+.wrapper-section-3{
+    margin: 0 auto;
+}
+.about-conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+.about-left{
+    width: 60%;
+}
+.about-right{
+    width: 30%;
+}
+.about-h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    margin: 35px 0 22px 0;
+}
+.about-left__image{
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    float: left;
+    margin: 0 20px 24px 0 ;
+}
+.about-left__text-1{
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #c17821;
+    margin-bottom: 19px;
+}
+
+.about-left__text-2{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    color: #989999;
+    margin-bottom: 19px;
+
+}
+.about-left__text-2_color{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    color: #d1d1d1;
+}
+.about-right__menu-item{
+    list-style: none;
+    font-size: 14px;
+    line-height: 15px;
+    padding: 10px 0;
+    color: #989999;
+    border-bottom: 1px dotted #646b6d;
+}
+
+/*end section-3*/
