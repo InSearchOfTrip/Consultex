@@ -481,3 +481,15 @@
         width: 100%;
     }
 }
+
+@media all and (max-width: 370px) {
+    .slogan {
+        font-size: 14px;
+        padding-right: 10px;
+        width: 55%;
+
+    }
+    .wrapper-section-1 {
+        height: 150px;
+    }
+}
